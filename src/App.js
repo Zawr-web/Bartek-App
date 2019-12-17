@@ -12,7 +12,7 @@ class App extends Component{
 
     }
   }
-// #a87732
+  
   render(){
 
     let arrayOfData = [{name: "Tomek", color: "yellow"}, {name:"Krzysiu", color: "green"}, {name:"Bartek", color: "blue"}, {name:"Jurek", color: "red"}, {name:"Marek", color: "orange"}];
