@@ -17,17 +17,13 @@ class Slajder extends Component{
 
   selectSlajder(color){
     let slajder;
-    if(color){
-      slajder = <div id="content" className="slajderStyle2">
-                <h1>Witaj {this.props.number} {this.props.number2}</h1>
-                </div>
-    }else{
-      setTimeout(2000);
-      console.log("STAN", this.state.number2);
-      slajder = <div id="content" className="slajderStyle">
-                <h1>Witaj {this.props.number} {this.props.number2}</h1>
-                </div>
+    let newStyle={
+      backgroundColor: this.props.hex
     }
+
+    slajder = <div id="content" style={newStyle}>
+              <h1>Witaj {this.props.imie}</h1>
+              </div>
     return slajder;
 
   }

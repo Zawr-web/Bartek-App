@@ -9,16 +9,24 @@ class App extends Component{
     // this.props.dispatch({ type: 'CHANGE_PATH', path: this.props.location.pathname});
 
     this.state={
+
     }
   }
-
+// #a87732
   render(){
 
+    let arrayOfData = [{name: "Tomek", color: "yellow"}, {name:"Krzysiu", color: "green"}, {name:"Bartek", color: "blue"}, {name:"Jurek", color: "red"}, {name:"Marek", color: "orange"}];
+    let slajder;
+    let slajders =[];
+    for (let i = 0; i < arrayOfData.length; i++) {
+      console.log(arrayOfData[i].color);
+      slajder = <Slajder imie = {arrayOfData[i].name} hex = {arrayOfData[i].color} />
+      slajders.push(slajder);
+    }
 
     return (
       <div id="main-view">
-        <Slajder number = {23} number2 = {24} color = {false} />
-        <Slajder number = {31} number2 = {32} color = {true} />
+        {slajders}
       </div>
     );
   }
