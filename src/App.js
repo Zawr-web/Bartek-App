@@ -6,13 +6,13 @@ class App extends Component{
 
   constructor(props){
     super(props);
-    // this.props.dispatch({ type: 'CHANGE_PATH', path: this.props.location.pathname});
-
+    
     this.state={
 
     }
   }
-// #a87732
+
+
   render(){
 
     let arrayOfData = [{name: "Tomek", color: "yellow"}, {name:"Krzysiu", color: "green"}, {name:"Bartek", color: "blue"}, {name:"Jurek", color: "red"}, {name:"Marek", color: "orange"}];
