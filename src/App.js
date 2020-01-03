@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Slajder from './slajder.js';
+import Slajder from './Slajder.js';
+import HomePage from './HomePage.js';
+import TopBar from './TopBar.js';
 
 class App extends Component{
 
   constructor(props){
     super(props);
-    
+
     this.state={
 
     }
@@ -24,9 +26,13 @@ class App extends Component{
       slajders.push(slajder);
     }
 
+
+
     return (
       <div id="main-view">
-        {slajders}
+        {/*{slajders}*/}
+        <TopBar imie = {"Krzysiu"}/>
+        <HomePage/>
       </div>
     );
   }

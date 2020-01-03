@@ -21,7 +21,7 @@ class Slajder extends Component{
       backgroundColor: this.props.hex
     }
 
-    slajder = <div id="content" style={newStyle}>
+    slajder = <div id="content" style={newStyle} class="slajderstyle">
               <h1>Witaj {this.props.imie}</h1>
               </div>
     return slajder;
