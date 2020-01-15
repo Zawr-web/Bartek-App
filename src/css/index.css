@@ -10,7 +10,7 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif; */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoot hing: grayscale;
 }
 
 /* code {
@@ -19,7 +19,7 @@ body {
 } */
 
 .root-view{
-  height: 100vh !important;
+  height: 100vh !important ;
 }
 
 .main-view{
