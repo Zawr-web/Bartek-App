@@ -10,7 +10,7 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif; */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoot hing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* code {
@@ -19,7 +19,7 @@ body {
 } */
 
 .root-view{
-  height: 100vh !important ;
+  height: 100vh !important;
 }
 
 .main-view{
@@ -33,11 +33,25 @@ body {
   color: #fff;
 }
 
-.slajderStyle2
+.menu-top
 {
   background-color: #202020;
-  height: 200px;
+  height: 50px;
   color: #fff;
+  list-style-type: none;
+  text-align: center;
+  /*HW poprawić, żeby to bylo scentrowane*/
+}
+.menu-top a
+{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+.menu-top:hover
+{
+  cursor: pointer;
 }
 
 .topbar
@@ -47,6 +61,22 @@ body {
   color: #fff;
   font-size: 20px;
   text-align: center;
+}
+
+.length
+{
+  height: 50%;
+  width: 100%;
+}
+
+.margines
+{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.test-class{
+  height: 43.5vh !important;
 }
 
 /* @media only screen and (max-width: 900px) {
