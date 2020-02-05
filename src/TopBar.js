@@ -20,7 +20,7 @@ class TopBar extends Component{
 
 
     return (
-      <div class="topbar text-align-center p-2">
+      <div className="topbar text-align-center p-2">
       Witaj {this.props.imie}!
       </div>
     );
